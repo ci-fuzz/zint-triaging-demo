@@ -16,6 +16,11 @@ compiler_extra_args:
   - "-lzint"
   - "-Lbuild/backend"
 
+## Options to pass to the fuzzing engine.
+engine_options:
+  libfuzzer:
+    - -use_value_profile=1
+
 ## Additional arguments to pass to the fuzz target when it is executed
 # run_extra_args:
 
