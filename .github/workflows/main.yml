@@ -4,7 +4,6 @@ on:
   push:
     branches: [ master ]
   pull_request:
-    branches: [ master ]
 
 env:
   FUZZING_SERVER_ADDRESS: grpc.code-intelligence.com:443
